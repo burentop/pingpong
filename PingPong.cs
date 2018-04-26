@@ -14,7 +14,11 @@ class PingPong
     {
         for (int i = 0; i <= number; i++)
         {
-            if (i % 15 == 0)
+            if (i == 0)
+            {
+                Console.WriteLine(i);
+            }
+            else if (i % 15 == 0)
             {
                 Console.WriteLine("ping-pong");
             }
